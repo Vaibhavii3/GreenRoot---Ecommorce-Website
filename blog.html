@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js" integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+        <!--  starting of header  -->
+        <header>
+            <!-- starting of navbar -->
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <div class="container">
+
+                    <!-- logo -->
+                    <a href="index.html" class="navbar-brand text-white ">GreenRoot</a>
+                    <!-- logo -->
+
+                    <!-- Starting of collapse part -->
+                    <button class="navbar-toggler ms-auto order-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse " id="navbarToggler">
+                        <!-- navbar links  -->
+                        <ul class="navbar-nav">
+
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link text-white"> Home </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="productdel.html" class="nav-link text-white"> Product </a>
+                            </li>  
+                            <li class="nav-item">
+                                <a href="blog.html" class="nav-link active fw-bold text-white"> Blog </a>
+                            </li>  
+
+                            <li class="nav-item">
+                                <a href="Contact.html" class="nav-link text-white"> Contact Us </a>
+                            </li> 
+                        </ul>
+                         <!-- navbar links  -->
+                        </div>
+                        <!-- end of collapse part -->
+
+                        <!-- search button  -->
+                        <!-- <form action="" class="d-flex order-1">
+                            <input type="search" class="form-control" placeholder="Search">
+                            <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+                        </form> -->
+
+                        <form action="" class="d-flex">
+                            <input type="search" class="form-control me-2 rounded-pill" placeholder="Search" style="border: 1px solid #ced4da;">
+                            <button class="btn btn-outline-success rounded-pill" type="submit" style="background-color: #28a745; border: 1px solid #28a745;"><i class="bi bi-search"></i></button>
+                        </form>
+                        <!-- search button  -->
+
+                        <!-- icons  -->
+                       <div class="icons m-3 order-1">
+                           <a href="login.html"><i class="bi bi-person"></i></a>
+                           
+                           <a href="cart.html"><i class="bi bi-cart"></i></a>
+                           
+                           <a href=""><i class="bi bi-heart"></i></a>
+                        </div>
+                        <!-- icons  --> 
+                    </div>
+            </nav>
+            <!-- ending of navbar  -->
+        </header>                                            
+
+        <!-- post filter  -->
+
+        <div class="post-filter container mb-3">
+            <span class="filter-item active-filter" data-filter="all">All</span>
+            <span class="filter-item" data-filter="Design">Sustainable Fashion Design</span>
+            <span class="filter-item" data-filter="Tech">Environmental Impact and Education</span>
+            <span class="filter-item" data-filter="Mobile">Sustainable Living Tips</span>
+        </div>
+
+        <!-- <div class="addbtn text-left">
+            <button type="button" class="btn btn-success add-btn m-3" data-bs-toggle="modal" data-bs-target="#blogModal">
+                Add Blog
+            </button>
+        </div> -->
+
+        <!-- Posts  -->
+
+        <section class="post container">
+            <!-- box 1  -->
+            <div class="post-box Mobile">
+                <img src="blog/c1.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Mobile</h2>
+                <a href="/" class="post-title"> Eco-Friendly Travel Tips: How to Explore the World Responsibly</a>
+                <span class="post-date">12 feb 2024</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p4.jpg" alt="" class="profile-img">
+                    <span class="profile-name"> Emma</span>
+                    
+                        <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                    
+                </div>
+            </div>
+
+            <div class="post-box Design">
+                <img src="blog/c2.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Design</h2>
+                <a href="/" class="post-title"> Eco-Friendly Pet Care: Sustainable Practices for Animal Lovers</a>
+                <span class="post-date">2 feb 2024</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p3.jpg" alt="" class="profile-img">
+                    <span class="profile-name"> Olivia </span>
+                    
+                        <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                   
+                </div>
+            </div>
+
+            <div class="post-box Mobile">
+                <img src="blog/c3.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Mobile</h2>
+                <a href="/" class="post-title"> Meal Prep Mastery: Sustainable Practices for Eco-Friendly Eating</a>
+                <span class="post-date">10 Mar 2024</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p2.jpg" alt="" class="profile-img">
+                    <span class="profile-name"> Ava </span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                    <!-- <div class="container">
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="post-box Design">
+                <img src="blog/c4.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Design</h2>
+                <a href="/" class="post-title"> Green Tech Gadgets: Eco-Friendly Innovations for Everyday Use</a>
+                <span class="post-date">1 Jan 2023</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p1.jpg" alt="" class="profile-img">
+                    <span class="profile-name"> Julie </span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Design">
+                <img src="blog/c5.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Design</h2>
+                <a href="/" class="post-title"> The Circular Economy: Reducing Waste and Maximizing Resources</a>
+                <span class="post-date">14 Apr 2024</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p9.jpg" alt="" class="profile-img">
+                    <span class="profile-name">Sophia</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Tech">
+                <img src="blog/c6.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Tech</h2>
+                <a href="/" class="post-title"> The Ecological Footprint: Calculating Your Impact on the Planet</a>
+                <span class="post-date">24 dec 2023</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+                <div class="profile">
+                    <img src="blog/p8.jpg" alt="" class="profile-img">
+                    <span class="profile-name">Isabella</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Tech">
+                <img src="blog/c7.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Tech</h2>
+                <a href="/" class="post-title"> Renewable Energy Sources: Harnessing the Power of the Sun, Wind, and Water</a>
+                <span class="post-date">26 mar 2022</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatum.</p>
+
+                <div class="profile">
+                    <img src="blog/p7.jpg" alt="" class="profile-img">
+                    <span class="profile-name"> Liam</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Mobile">
+                <img src="blog/c8.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Mobile</h2>
+                <a href="/" class="post-title"> Green Living 101: Simple Steps to Transition to a Sustainable Lifestyle</a>
+                <span class="post-date">20 jan 2024</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p6.jpg" alt="" class="profile-img">
+                    <span class="profile-name">Ethan</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Design">
+                <img src="blog/c9.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Design</h2>
+                <a href="/" class="post-title"> Fair Trade Practices: Ensuring Ethical Treatment of Workers in Supply Chains</a>
+                <span class="post-date">12 may 2023</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p5.jpg" alt="" class="profile-img">
+                    <span class="profile-name">Oliver</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Mobile">
+                <img src="blog/c10.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Mobile</h2>
+                <a href="/" class="post-title"> 10 Easy Ways to Incorporate Reusable Products into Your Daily Routine</a>
+                <span class="post-date">16 Apr 2024</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p4.jpg" alt="" class="profile-img">
+                    <span class="profile-name"> Emma</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Mobile">
+                <img src="blog/c11.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Mobile</h2>
+                <a href="/" class="post-title"> 10 Easy Ways to Incorporate Reusable Products into Your Daily Routine</a>
+                <span class="post-date">18 aug 2023</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p3.jpg" alt="" class="profile-img">
+                    <span class="profile-name">Olivia</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Design">
+                <img src="blog/c12.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Design</h2>
+                <a href="/" class="post-title"> Sustainable Jewelry: Eco-Friendly Options for Accessorizing</a>
+                <span class="post-date">9 feb 2023</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p2.jpg" alt="" class="profile-img">
+                    <span class="profile-name">Ava</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Mobile">
+                <img src="blog/c13.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Mobile</h2>
+                <a href="/" class="post-title"> The Environmental Impact of Single-Use Plastics: Why Reusables Matter</a>
+                <span class="post-date">28 aug 2022</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p1.jpg" alt="" class="profile-img">
+                    <span class="profile-name"> Julie </span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Design">
+                <img src="blog/c14.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Design</h2>
+                <a href="/" class="post-title"> Ethical Fashion Brands: Supporting Fair Wages and Working Conditions</a>
+                <span class="post-date">12 feb 2022</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p9.jpg" alt="" class="profile-img">
+                    <span class="profile-name">Sophia</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Design">
+                <img src="blog/c15.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Design</h2>
+                <a href="/" class="post-title"> Textile Recycling: Giving Old Clothes a New Lease on Life</a>
+                <span class="post-date">29 Aug 2023</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p8.jpg" alt="" class="profile-img">
+                    <span class="profile-name"> Isabella</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Tech">
+                <img src="blog/c16.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Tech</h2>
+                <a href="/" class="post-title"> Sustainable Gardening: Tips for Growing Your Own Food at Home</a>
+                <span class="post-date">10 feb 2021</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+                <div class="profile">
+                    <img src="blog/p7.jpg" alt="" class="profile-img">
+                    <span class="profile-name">Liam</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Tech">
+                <img src="blog/c17.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Tech</h2>
+                <a href="/" class="post-title"> Mindful Consumption: How Buying Less Can Lead to a More Sustainable Future</a>
+                <span class="post-date">18 feb 2023</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatum.</p>
+
+                <div class="profile">
+                    <img src="blog/p6.jpg" alt="" class="profile-img">
+                    <span class="profile-name">Ethan</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Mobile">
+                <img src="blog/c1.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Mobile</h2>
+                <a href="/" class="post-title"> The Power of Upcycling: Creative Ways to Reuse and Repurpose Items</a>
+                <span class="post-date">22 oct 2023</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p5.jpg" alt="" class="profile-img">
+                    <span class="profile-name">Oliver</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Design">
+                <img src="blog/c2.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Design</h2>
+                <a href="/" class="post-title"> The Rise of Sustainable Fashion: Brands Leading the Charge</a>
+                <span class="post-date">25 oct 2024</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p4.jpg" alt="" class="profile-img">
+                    <span class="profile-name">Emma</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Mobile">
+                <img src="blog/c3.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Mobile</h2>
+                <a href="/" class="post-title"> The Carbon Footprint of Convenience: Reconsidering Disposable Culture</a>
+                <span class="post-date">24 nov 2024</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p3.jpg" alt="" class="profile-img">
+                    <span class="profile-name">Olivia</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Mobile">
+                <img src="blog/c4.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Mobile</h2>
+                <a href="/" class="post-title"> From Trash to Treasure: DIY Projects Using Recycled Materials</a>
+                <span class="post-date">10 jun 2023</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p2.jpg" alt="" class="profile-img">
+                    <span class="profile-name">Ava</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Design">
+                <img src="blog/c5.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Design</h2>
+                <a href="/" class="post-title"> Community Initiatives for Sustainable Living: How to Get Involved</a>
+                <span class="post-date">19 jul 2021</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p1.jpg" alt="" class="profile-img">
+                    <span class="profile-name"> julie </span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Mobile">
+                <img src="blog/c6.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Mobile</h2>
+                <a href="/" class="post-title"> Sustainable Gardening: Tips for Growing Your Own Food at Home"</a>
+                <span class="post-date">10 mar 2023</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p9.jpg" alt="" class="profile-img">
+                    <span class="profile-name">Sophia</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Design">
+                <img src="blog/c7.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Design</h2>
+                <a href="/" class="post-title"> The Role of Technology in Advancing Sustainability Efforts</a>
+                <span class="post-date">8 jun 2023</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p8.jpg" alt="" class="profile-img">
+                    <span class="profile-name">Isabella</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Design">
+                <img src="blog/c8.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Design</h2>
+                <a href="/" class="post-title"> Zero-Waste Challenges: One Month, No Trash – Can You Do It?</a>
+                <span class="post-date">10 nov 2022</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p7.jpg" alt="" class="profile-img">
+                    <span class="profile-name">Liam</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Tech">
+                <img src="blog/c9.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Tech</h2>
+                <a href="/" class="post-title"> The Impact of Fast Fashion on the Environment and Society</a>
+                <span class="post-date">19 dec 2024</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+                <div class="profile">
+                    <img src="blog/p6.jpg" alt="" class="profile-img">
+                    <span class="profile-name">Ethan</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Tech">
+                <img src="blog/c10.jpg" alt="" class="post-img">
+                <h2 class="category pt-2  d-none">Tech</h2>
+                <a href="/" class="post-title"> The Environmental Impact of Single-Use Plastics: Why Reusables Matter</a>
+                <span class="post-date">17 dec 2023</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatum.</p>
+
+                <div class="profile">
+                    <img src="blog/p5.jpg" alt="" class="profile-img">
+                    <span class="profile-name">Oliver</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Mobile">
+                <img src="blog/c11.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Mobile</h2>
+                <a href="/" class="post-title"> Sustainable Parenting: Raising Eco-Conscious Kids in a Disposable World</a>
+                <span class="post-date">12 mar 2024</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p4.jpg" alt="" class="profile-img">
+                    <span class="profile-name">Amma</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Design">
+                <img src="blog/c12.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Design</h2>
+                <a href="/" class="post-title"> Navigating the Grocery Store for Sustainability: A Shopper's Guide</a>
+                <span class="post-date">2 apr 2024</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p3.jpg" alt="" class="profile-img">
+                    <span class="profile-name">Olivia</span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+            <div class="post-box Mobile">
+                <img src="blog/c13.jpg" alt="" class="post-img">
+                <h2 class="category pt-2 d-none">Mobile</h2>
+                <a href="/" class="post-title"> Breaking Down Biodegradable vs. Compostable: What's the Difference?</a>
+                <span class="post-date">12 feb 2022</span>
+                <p class="post-description">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ex quisquam necessitatibus ducimus porro, eos, libero quas minus delectus id fugiat. Error perspiciatis ipsam consectetur temporibus at obcaecati, harum eius?</p>
+
+
+                <div class="profile">
+                    <img src="blog/p2.jpg" alt="" class="profile-img">
+                    <span class="profile-name"> julie </span>
+                    <button class="share-btn" id="shareBtn"> <i class="bi bi-share"></i> </button>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- <div class="modal fade" id="blogModal" tabindex="-1" aria-labelledby="blogModalLabel" aria-hidden="true"> -->
+        <!-- <div class="modal fade" id="blogModal" aria-labelledby="blogModalLabel" aria-hidden="true"> -->
+        <div class="modal fade" id="blogModal" aria-labelledby="blogModalLabel">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                  <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                <div class="modal-header col-md-12">
+                    
+                    <!-- <div class="modal-body"> -->
+                    <form id="blogForm">
+                        <h5 class="modal-title text-center text-success mb-1" id="blogModalLabel">Write Your Thoughts Here.</h5>
+
+                        <div class="col-md-6 name-title">
+                            <div class="mb-3 col-md-12">
+                            <label for="blogName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="blogName" required>
+                            </div>
+                            <div class="mb-3 title col-md-12">
+                            <label for="blogTitle" class="form-label">Title</label>
+                            <input type="text" class="form-control" id="blogTitle" required>
+                            </div>
+                        </div>
+                        
+                        
+                            <div class="mb-3 title ">
+                            <label for="blogDate" class="form-label">Date</label>
+                            <input type="date" class="form-control" id="blogDate" required>
+                            </div>
+                            <div class="mb-3 title ">
+                            <label for="UploadFile " class="form-label">Upload File : </label>
+                            <input type="file" class="form-control" id="blogFile" required>
+                            </div>
+                        
+
+                        <div class="mb-3 content">
+                        <label for="blogContent" class="form-label">Content</label>
+                        <textarea class="form-control" id="blogContent" rows="3" required></textarea>
+                        </div>
+
+                        <div class="butn">
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+
+                        </div>
+                    </form>
+                    <!-- </div> -->
+                </div>    
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script src="Js/blog.js"></script>
+    </body>        
+</html>

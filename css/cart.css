@@ -1,0 +1,275 @@
+* {
+    margin: O;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-toggler-icon {
+    color: white !important; /* Change the color to white */
+    border-color: white !important;
+}
+
+.bi-search, .bi-person, .bi-heart, .bi-cart {
+    color: white; /* Change the color of the search icon to white */
+}
+
+.navbar-nav .nav-link .bi {
+    font-size: 1.5rem;
+}
+
+.icons a {
+    margin: 0 10px;
+}
+
+.icons a{
+    color: #198754;
+    /* size: 10px; */
+}
+
+/* .main-box{
+    background-color: rgb(110, 174, 153);
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap'); 
+* {
+     margin: 0; 
+     padding: 0; 
+     box-sizing: border-box; 
+     font-family: 'Mulish', sans-serif; 
+    } 
+
+    :root { 
+        --text-clr: #4f4f4f; 
+    } 
+    p { 
+        color: #6c757d; 
+    } 
+    a { 
+        text-decoration: none; 
+        color: var(--text-clr); 
+    } 
+    a:hover { 
+        text-decoration: none; 
+        color: var(--text-clr); 
+    } 
+    h2 { 
+        color: var(--text-clr); 
+        font-size: 1.5rem; 
+    } 
+    .main_cart { 
+        background: #fff; 
+        height: 50%;
+    } 
+    .card { 
+        border: none; 
+    } 
+    .product_img img {
+        min-width: 200px; 
+        max-height: 200px; 
+    } 
+    .product_name { 
+        color: black; 
+        font-size: 1.4rem; 
+        text-transform: capitalize; 
+        font-weight: 500; 
+    } 
+    .card-title p { 
+        font-size: 0.9rem; 
+        font-weight: 500; 
+    } 
+    .remove-and-wish p { 
+        font-size: 0.8rem; 
+        margin-bottom: 0; 
+    } 
+    .price-money h3 { 
+        font-size: 1rem; 
+        font-weight: 600; 
+    } 
+    .set_quantity {
+        position: relative; 
+    } 
+    .set_quantity::after { 
+            content: "(Note, 1 piece)"; 
+            width: auto; 
+            height: auto; 
+            text-align: center; 
+            position: absolute; 
+            bottom: -20px; 
+            right: 1.5rem; 
+            font-size: 0.8rem; 
+    } 
+    .page-link { 
+            line-height: 16px; 
+            width: 45px; 
+            font-size: 1rem; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            color: #495057; 
+    } 
+    .page-item input { 
+            line-height: 22px; 
+            padding: 3px; 
+            font-size: 15px; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            text-align: center;
+    } 
+    .page-link:hover {
+            text-decoration: none; 
+            color: #495057; 
+            outline: none !important; 
+    } 
+    .page-link:focus { 
+            box-shadow: none; 
+    } 
+    .price_indiv p { 
+            font-size: 1.1rem; 
+    } 
+    .fa-heart:hover { 
+            color: red; 
+    }
+
+    .product-img {
+        
+            width: 100%;
+            height: 300px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        
+    }
+
+    .bg {
+        background: #598e55;
+    }
+
+.footer-inner-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .social a{
+    color: #198754;
+    font-size: 25px;
+    transition: 0.3s ease;
+    
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.footer-newsletter {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-newsletter h5 {
+    margin-bottom: 15px;
+    color: #ffffff; /* Dark text for the heading */
+}
+
+.footer-newsletter p {
+    margin-bottom: 20px;
+    color: #666; /*Lighter text for the description */
+}
+
+.footer-newsletter form {
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+}
+
+.footer-newsletter input[type="email"] {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 5px 5px; /*Rounded left corners */
+}
+
+.footer-newsletter button[type="submit"] {
+    width: 30%;
+    padding: 8px;
+    background-color: #198754; /*Bootstrap primary blue */
+    border: none;
+    border-radius: 5px 5px 5px 5px; /* Rounded right corners */
+    color: white;
+    cursor: pointer;
+}
+
+.footer-newsletter button[type="submit"]:hover {
+    box-shadow: 1px 1px 4px #1ebb72;
+    background-color: #1ebb72;
+    cursor: pointer;
+    transition: 0.3s ease;
+} 
+
+.footer .about-us {
+    color: #ffffff; /* Adjust the color to fit your footer's theme */
+    margin-bottom: 20px; /* Provides spacing from other elements */
+}
+
+.footer .about-us h5 {
+    font-size: 18px; /* Adjust the size as needed */
+    margin-bottom: 10px; /* Spacing between the title and the content */
+    font-weight: bold; /* Makes the title stand out */
+}
+
+.footer .about-us p {
+    font-size: 14px; /* Adjust the size as needed */
+    line-height: 1.6; /* Improves readability */
+    margin: 0; /* Adjusts the default margin */
+}
+
+
+#cart-items div {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.cart-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center; /* Ensure alignment of items */
+}
+
+.product-image img {
+    width: 120px; /* Increased width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add some space between the image and details */
+}
+
+.product-details h4 {
+    margin: 0;
+    font-size: 18px; /* Larger font size for product name */
+}
+
+.product-details p {
+    margin: 4px 0;
+    font-size: 16px; /* Larger font size for details */
+}
+
+input[type="number"] {
+    width: 60px;
+    font-size: 16px; /* Larger font size for input */
+}
+
+.btn {
+    padding: 5px 10px; /* Adjust button padding */
+    font-size: 13px; /* Larger font size for button */
+}
+
+@media (max-width: 768px) {
+    .product-image img {
+        width: 100%; /* Full width on smaller screens */
+    }
+    .product-details, .price_indiv, .total-amt {
+        font-size: 14px; /* Smaller text on smaller screens */
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "reviews": [
+        {
+            "name": "John Doe",
+            "comment": "Great product, really loved it!"
+        },
+        {
+            "name": "Jane Smith",
+            "comment": "The quality is superb for the price."
+        },
+        {
+            "name": "Alice Johnson",
+            "comment": "Fast delivery and excellent customer service."
+        },
+        {
+            "name": "Alice Johnson",
+            "comment": "Fast delivery and excellent customer service."
+        }
+    ]
+}

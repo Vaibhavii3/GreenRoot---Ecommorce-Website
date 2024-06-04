@@ -1,0 +1,114 @@
+* {
+    margin: O;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    background: #598e55;
+    background-size: cover;
+    height: 100vh;
+}
+
+.signup-here {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(5px);
+    /* border: 1px solid black; */
+    margin-left: 20%;
+    padding-left: 5%;
+    margin-right: 20%;
+    padding-right: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    box-shadow: 3px 2px 40px black;
+}
+
+.form-check-input[type='checkbox']:checked {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+.form-control {
+    border-width: 3px;
+    border: 1px solid #198754;
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 3px solid #198754;
+}
+
+
+/* Style the password input field */
+/* #password {
+    padding-right: 40px; /* Make room for the toggle button inside the input field */
+    /* border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px;
+}  */
+
+/* Style the toggle button */
+/* .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: calc(50% - 15px); Adjust this value to center the button vertically */
+    /* cursor: pointer;
+    color: #d83838;
+    background-color: transparent;
+    border: none;
+} */
+
+/* Optional: Change the toggle button icon or color on hover */
+/* .toggle-password:hover {
+    color: #555;
+} */
+
+/* Container to position the input field and the toggle button */
+/* .password-container {
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+} */
+
+.password-container {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: flex-start; /* Align items to the start of the container */
+    width: 100%;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px; /* Position to the right inside the input field */
+    top: 10px; /* Adjust top position to vertically center with the input field */
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: #333;
+    outline: none;
+}
+
+.toggle-password:hover {
+    color: #666;
+}
+
+#password_status {
+    margin-top: 1px; /* Space between the input field and the status message */
+    width: 100%;
+    font-size: 14px;
+}
+
+#confirm_password_status {
+    margin-top: 1px;
+    width: 100%;
+    font-size: 14px;
+}

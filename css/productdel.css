@@ -1,0 +1,511 @@
+.navbar-toggler-icon {
+    color: white !important; /* Change the color to white */
+    border-color: white !important;
+}
+
+.bi-search, .bi-person, .bi-heart, .bi-cart {
+    color: white; /* Change the color of the search icon to white */
+}
+
+.navbar-nav .nav-link .bi {
+    font-size: 1.5rem;
+}
+
+.icons a {
+    margin: 0 10px;
+}
+
+body{
+    background-color: rgb(235, 234, 234);
+}
+/* .cart-icon {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #f9a825; 
+    border-radius: 50%; 
+    text-align: center;
+    line-height: 30px; 
+    color: #ffffff; 
+    font-size: 18px; 
+} */
+
+/* Cart Count Styles */
+/* .cart-count {
+    position: absolute;
+    top: -5px; 
+    right: -5px; 
+    background-color: #ff0000; 
+    color: #ffffff; 
+    border-radius: 50%; 
+    padding: 5px; 
+    font-size: 10px; 
+} */
+
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem; /* Larger title */
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666; /* Subtle color for text */
+}
+
+.card-img-top1 {
+    width: 100%; /* Make image width responsive */
+    height: 250px; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the area of the container without stretching the image */
+}
+
+.Customer-review a{
+    text-decoration: none;
+}
+
+/* five */
+.Customer-review .five-star{
+    transition: 0.3s ease;
+}
+
+.Customer-review .five-star:hover {
+    transform: scale(1.02);
+}
+/* four  */
+.Customer-review .four-star{
+    transition: 0.3s ease;
+}
+
+.Customer-review .four-star:hover {
+    transform: scale(1.03);
+}
+/* three  */
+.Customer-review .three-star{
+    transition: 0.3s ease;
+}
+
+.Customer-review .three-star:hover {
+    transform: scale(1.03);
+}
+
+/* two  */
+.Customer-review .two-star{
+    transition: 0.3s ease;
+}
+
+.Customer-review .two-star:hover {
+    transform: scale(1.03);
+}
+
+/* one  */
+.Customer-review .one-star{
+    transition: 0.3s ease;
+}
+
+.Customer-review .one-star:hover {
+    transform: scale(1.03);
+}
+
+
+.price-box a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.price-box a:hover{
+    font-weight: 700;
+}
+
+.brands-checkbox {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* gap: 2.5rem; */
+    /* border: 2px solid red; */
+    justify-items: left;
+}
+
+.brands-box a{
+    text-decoration: none;
+}
+
+.deals-inner-box a{
+    text-decoration: none;
+}
+
+.deals-inner-box a:hover{
+    font-weight: 700;
+}
+
+.discount-part a{
+    text-decoration: none;
+}
+
+.discount-part a:hover{
+    font-weight: 700;
+}
+
+.new-arrivals-inner-box a{
+    text-decoration: none;
+}
+
+.new-arrivals-inner-box a:hover{
+    font-weight: 700;
+}
+
+.rate{
+    color: #198754;
+    cursor: pointer;
+}
+
+.share {
+    color: #198754;
+}
+
+.card-group2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.img {
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.card-img-top {
+    width: 100%; /* Make image width responsive */
+    height: 250px; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the area of the container without stretching the image */
+}
+
+.footer-inner-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .social a{
+    color: #198754;
+    font-size: 25px;
+    transition: 0.3s ease;
+    
+}
+
+.footer-newsletter {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-newsletter h5 {
+    margin-bottom: 15px;
+    color: #ffffff; /* Dark text for the heading */
+}
+
+.footer-newsletter p {
+    margin-bottom: 20px;
+    color: #666; /*Lighter text for the description */
+}
+
+.footer-newsletter form {
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+}
+
+.footer-newsletter input[type="email"] {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 5px 5px; /*Rounded left corners */
+}
+
+.footer-newsletter button[type="submit"] {
+    width: 30%;
+    padding: 8px;
+    background-color: #198754; /*Bootstrap primary blue */
+    border: none;
+    border-radius: 5px 5px 5px 5px; /* Rounded right corners */
+    color: white;
+    cursor: pointer;
+}
+
+.footer-newsletter button[type="submit"]:hover {
+    box-shadow: 1px 1px 4px #1ebb72;
+    background-color: #1ebb72;
+    cursor: pointer;
+    transition: 0.3s ease;
+} 
+
+.footer .about-us {
+    color: #ffffff; /* Adjust the color to fit your footer's theme */
+    margin-bottom: 20px; /* Provides spacing from other elements */
+}
+
+.footer .about-us h5 {
+    font-size: 18px; /* Adjust the size as needed */
+    margin-bottom: 10px; /* Spacing between the title and the content */
+    font-weight: bold; /* Makes the title stand out */
+}
+
+.footer .about-us p {
+    font-size: 14px; /* Adjust the size as needed */
+    line-height: 1.6; /* Improves readability */
+    margin: 0; /* Adjusts the default margin */
+}
+
+@media (max-width: 768px) {
+    .footer-newsletter form {
+        display: block;
+    }
+
+    .footer-newsletter input[type="email"], .footer-newsletter button[type="submit"] {
+        width: 100%;
+        border-radius: 5px; /* Rounded corners for mobile */
+        margin-bottom: 10px;
+    } 
+
+    .footer-newsletter button[type="submit"] {
+        margin-bottom: 0; /* Remove margin for the button on mobile */
+    }
+
+    .card-group2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+    
+    .card-group {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .btn1 {
+        width: 40%;
+    }
+} 
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black background with transparency */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* 80% width */
+    display: flex;
+    flex-direction: row;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Product-cart-img {
+    width: 250px;
+    height: 250px;
+}
+
+
+.color-1 {
+    border: 1px solid slategray;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: slategray;
+    cursor: pointer;
+}
+
+.color-1:hover {
+    border: 2px solid black;
+}
+
+.color-2 {
+    border: 1px solid salmon;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: salmon;
+    cursor: pointer;
+}
+
+.color-2:hover {
+    border: 2px solid black;
+}
+
+.color-3 {
+    border: 1px solid palegreen;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: palegreen;
+    cursor: pointer;
+}
+
+.color-3:hover {
+    border: 2px solid black;
+}
+
+.color-4 {
+    border: 1px solid violet;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+    cursor: pointer;
+}
+
+.color-4:hover {
+    border: 2px solid black;
+}
+
+
+.new-arrival-products {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.new-arrival-products img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.new-arrival-products h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.new-arrival-products p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* .add-to-cart-button, .view-details-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+} */
+
+
+.product-rating, .product-availability {
+    margin-bottom: 20px;
+    color: #28a745;
+}
+
+.product-variants {
+    margin-top: 10px;
+}
+
+.product-variants label {
+    margin-right: 10px;
+}
+
+.share-btn{
+    position: relative;
+    border: none;
+    background:white;
+    color: #157347;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
+    padding-top: 2.5px;
+    cursor: pointer;
+}
+
+.active-filter {
+    box-shadow: #157347;
+}
+
+.post-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+    margin-top: 2rem !important;
+}
+
+.filter-item {
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.active-filter {
+    background: #157347;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.modal-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    justify-content: right;
+    
+}
+
+.btn2{
+    text-decoration: none;
+    color: #157347;
+}
+
+
+.btn2:hover{
+    color: #ffffff;
+}
+
+

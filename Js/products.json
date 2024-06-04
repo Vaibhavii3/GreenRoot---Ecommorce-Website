@@ -1,0 +1,443 @@
+[
+    {
+        "id": "p1",
+        "name": "EcoCleance",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 140,
+        "availability": "In Stock",
+        "image": "img/p11.jpg",
+        "category": "Plant-Based and Vegan Products"
+    },
+    
+    {
+        "id": "p2",
+        "name": " Green Bottle",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 90,
+        "availability": "In Stock",
+        "image": "img/p6.jpg",
+        "category": "Home and Lifestyle"
+    },
+
+    {
+        "id": "p3",
+        "name": "Paper bags",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 100,
+        "availability": "In Stock",
+        "image": "img/p5.jpg",
+        "category": "Plant-Based and Vegan Products"
+    },
+    
+    {
+        "id": "p4",
+        "name": "Container",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 200,
+        "availability": "In Stock",
+        "image": "img/p18.jpg",
+        "category": "Outdoor and Adventure Gear"
+    },
+
+    {
+        "id": "p5",
+        "name": "Eco-Dishwashing stub",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 10,
+        "availability": "In Stock",
+        "image": "img/p17.jpg",
+        "category": "Reusable Products"
+    },
+    
+    {
+        "id": "p7",
+        "name": "EcoCleance",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 200,
+        "availability": "In Stock",
+        "image": "img/p14.jpg",
+        "category": "Plant-Based and Vegan Products"
+    },
+
+    {
+        "id": "p9",
+        "name": "Cotton-stub",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 80,
+        "availability": "In Stock",
+        "image": "img/p1.jpg",
+        "category": "Reusable Products"
+    },
+
+    {
+        "id": "p10",
+        "name": "Bottles",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 70,
+        "availability": "In Stock",
+        "image": "img/p2.jpg",
+        "category": "Reusable Products"
+    },
+    
+    {
+        "id": "p11",
+        "name": "Container",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 230,
+        "availability": "In Stock",
+        "image": "img/p4.jpg",
+        "category": "Home and Lifestyle"
+    },
+
+    {
+        "id": "p12",
+        "name": "Container",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 50,
+        "availability": "In Stock",
+        "image": "img/p7.jpg",
+        "category": "Plant-Based and Vegan Products"
+    },
+
+    {
+        "id": "p13",
+        "name": "Green straw",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 90,
+        "availability": "In Stock",
+        "image": "img/p9.jpg",
+        "category": "Reusable Products"
+    },
+    
+    {
+        "id": "p14",
+        "name": "VerdeWare",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 110,
+        "availability": "In Stock",
+        "image": "img/p8.jpg",
+        "category": "Reusable Products"
+    },
+
+    {
+        "id": "p15",
+        "name": "EcoCleance",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 200,
+        "availability": "In Stock",
+        "image": "img/p12.jpg",
+        "category": "Plant-Based and Vegan Products"
+    },
+
+    {
+        "id": "p16",
+        "name": "Calender",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 280,
+        "availability": "In Stock",
+        "image": "img/p20.jpg",
+        "category": "Outdoor and Adventure Gear"
+    },
+    
+    {
+        "id": "p17",
+        "name": "Bottles",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 200,
+        "availability": "In Stock",
+        "image": "img/p19.jpg",
+        "category": "Home and Lifestyle"
+    },
+
+    {
+        "id": "p18",
+        "name": "Grow-plant",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 200,
+        "availability": "In Stock",
+        "image": "img/p33.jpg",
+        "category": "Green Technology"
+    },
+
+    {
+        "id": "p19",
+        "name": "VerdeWare",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 25,
+        "availability": "In Stock",
+        "image": "img/p38.jpg",
+        "category": "Reusable Products"
+    },
+    
+    {
+        "id": "p20",
+        "name": "GreenTech",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 280,
+        "availability": "In Stock",
+        "image": "img/p37.jpg",
+        "category": "Green Technology"
+    },
+
+    {
+        "id": "p21",
+        "name": "Planter",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 210,
+        "availability": "In Stock",
+        "image": "img/p34.jpg",
+        "category": "Home and Lifestyle"
+    },
+
+    {
+        "id": "p22",
+        "name": "VerdeWare",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 15,
+        "availability": "In Stock",
+        "image": "img/p40.jpg",
+        "category": "Reusable Products"
+    },
+    
+    {
+        "id": "p23",
+        "name": "GreenTech",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 25,
+        "availability": "In Stock",
+        "image": "img/p39.jpg",
+        "category": "Plant-Based and Vegan Products"
+    },
+
+    {
+        "id": "p24",
+        "name": "GreenTech",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 240,
+        "availability": "In Stock",
+        "image": "img/p41.jpg",
+        "category": "Green Technology"
+    },
+
+    {
+        "id": "p25",
+        "name": "Perfume",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 100,
+        "availability": "In Stock",
+        "image": "img/p29.jpg",
+        "category": "Home and Lifestyle"
+    },
+    
+    {
+        "id": "p26",
+        "name": "GreenBristle",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 200,
+        "availability": "In Stock",
+        "image": "img/p32.jpg",
+        "category": "Plant-Based and Vegan Products"
+    },
+
+    {
+        "id": "p27",
+        "name": "EcoCleance",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 50,
+        "availability": "In Stock",
+        "image": "img/p43.jpg",
+        "category": "Plant-Based and Vegan Products"
+    },
+
+    {
+        "id": "p28",
+        "name": "EcoCleance",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 60,
+        "availability": "In Stock",
+        "image": "img/p42.jpg",
+        "category": "Reusable Products"
+    },
+    
+    {
+        "id": "p29",
+        "name": "GreenGlow",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 290,
+        "availability": "In Stock",
+        "image": "img/p36.jpg",
+        "category": "Green Technology"
+    },
+
+    {
+        "id": "p30",
+        "name": "Planter",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 70,
+        "availability": "In Stock",
+        "image": "img/p35.jpg",
+        "category": "Plant-Based and Vegan Products"
+    },
+
+    {
+        "id": "p31",
+        "name": "Green straw",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 50,
+        "availability": "In Stock",
+        "image": "img/p31.jpg",
+        "category": "Reusable Products"
+    },
+    
+    {
+        "id": "p32",
+        "name": "Cotton-stub",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 50,
+        "availability": "In Stock",
+        "image": "img/p30.jpg",
+        "category": "Plant-Based and Vegan Products"
+    },
+
+    {
+        "id": "p33",
+        "name": "EcoCleance",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 150,
+        "availability": "In Stock",
+        "image": "img/p26.jpg",
+        "category": "Plant-Based and Vegan Products"
+    },
+
+    {
+        "id": "p34",
+        "name": "GreenBristle",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 80,
+        "availability": "In Stock",
+        "image": "img/p27.jpg",
+        "category": "Home and Lifestyle"
+    },
+    
+    {
+        "id": "p35",
+        "name": "GreenBristle",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 40,
+        "availability": "In Stock",
+        "image": "img/p28.jpg",
+        "category": "Home and Lifestyle"
+    },
+
+    {
+        "id": "p36",
+        "name": "EcoCleance",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 60,
+        "availability": "In Stock",
+        "image": "img/p25.jpg",
+        "category": "Plant-Based and Vegan Products"
+    },
+
+    {
+        "id": "p37",
+        "name": "Calender",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 75,
+        "availability": "In Stock",
+        "image": "img/p23.jpg",
+        "category": "Home and Lifestyle"
+    },
+    
+    {
+        "id": "p39",
+        "name": "EcoCleance",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 80,
+        "availability": "In Stock",
+        "image": "img/p24.jpg",
+        "category": "Plant-Based and Vegan Products"
+    },
+
+    {
+        "id": "p40",
+        "name": "Pen Holder",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 140,
+        "availability": "In Stock",
+        "image": "img/p22.jpg",
+        "category": "Home and Lifestyle"
+    },
+
+    {
+        "id": "p41",
+        "name": "EcoCleance",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 50,
+        "availability": "In Stock",
+        "image": "img/p21.jpg",
+        "category": "Plant-Based and Vegan Products"
+    },
+    
+    {
+        "id": "p42",
+        "name": "Container",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 200,
+        "availability": "In Stock",
+        "image": "img/p16.jpg",
+        "category": "Outdoor and Adventure Gear"
+    },
+
+    {
+        "id": "p43",
+        "name": "EcoCleance",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 190,
+        "availability": "In Stock",
+        "image": "img/p14.jpg",
+        "category": "Plant-Based and Vegan Products"
+    },
+
+    {
+        "id": "p44",
+        "name": "EcoCleance",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 60,
+        "availability": "In Stock",
+        "image": "img/p13.jpg",
+        "category": "Plant-Based and Vegan Products"
+    },
+    
+    {
+        "id": "p45",
+        "name": "GreenBristle",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 60,
+        "availability": "In Stock",
+        "image": "img/p7.jpg",
+        "category": "Reusable Products"
+    },
+
+    {
+        "id": "p46",
+        "name": "Green straw",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 40,
+        "availability": "In Stock",
+        "image": "img/p10.jpg",
+        "category": "Reusable Products"
+    },
+
+    {
+        "id": "p47",
+        "name": "Planter",
+        "description": "Compact and versatile travel container designed to securely hold accessories, medication for your convenience on the go.",
+        "price": 60,
+        "availability": "In Stock",
+        "image": "img/p35.jpg",
+        "category": "Green Technology",
+        "colors": ["Red", "Blue", "Green"],
+        "sizes": ["Small", "Medium", "Large"]
+    }
+]
